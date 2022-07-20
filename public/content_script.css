@@ -1,0 +1,39 @@
+.box {
+  position: fixed;
+  z-index: 10000;
+  top: 400px;
+  right: 900px;
+  height: 40px;
+  border: 1px solid rebeccapurple;
+  background-color: aqua;
+  width: 50px;
+  height: 50px;
+  border-radius: 16px;
+}
+
+#iphone-12-pro:checked ~ .tab-iphone-12-pro {
+  display: flex;
+}
+
+#iphone-12-pro:checked ~ .nav label[for='iphone-12-pro'] span {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+#iphone-12:checked ~ .tab-iphone-12 {
+  display: flex;
+}
+
+#iphone-12:checked ~ .nav label[for='iphone-12'] span {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+#iphone-se:checked ~ .tab-iphone-se {
+  display: flex;
+}
+
+#iphone-se:checked ~ .nav label[for='iphone-se'] span {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
